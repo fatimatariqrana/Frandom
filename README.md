@@ -1,10 +1,3 @@
-# frandom
-
-
-Here is a detailed README for the GitHub project "Frandom" using the provided information:
-
-***
-
 # Frandom
 
 ## Overview
