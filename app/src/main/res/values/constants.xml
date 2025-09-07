@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="storage_link">gs://frandom-7ad67.appspot.com</string>
+    <string name="google_web_client_id">1069093726337-i75h1fls3jrkrvb2ppe8mg6cnhc237nf.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">2808969075804101</string>
+
+    <string name="facebook_large_image_url_pattern">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="google_large_image_url_pattern">%1$s?sz=%2$d</string>
+</resources>

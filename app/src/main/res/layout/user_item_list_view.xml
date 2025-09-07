@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <com.fat.mah.CircularImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:transitionName="@string/post_author_image_transition_name"
+        app:border="true"
+        app:shadow="true"
+        app:border_color="@color/whis2"
+        app:border_width="3dp"
+
+        app:shadow_radius="3dp"
+        app:shadow_color="@color/circle_image_shadow"
+        tools:src="@drawable/ic_stub"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.Title"
+        tools:text="Fatima " />
+
+
+
+</LinearLayout>

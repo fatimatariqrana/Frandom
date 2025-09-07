@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/top_shadow1"
+
+
+    android:layout_height="match_parent"
+    tools:context=".frandomSplash">
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="284dp"
+        android:textSize="50dp"
+        android:textColor="#F5000000"
+        android:textStyle="bold"
+        android:text="FR"/>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="130dp"
+
+        android:layout_marginTop="288dp"
+        android:background="@drawable/aaaa"
+
+        />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="286dp"
+        android:textSize="48dp"
+        android:textColor="#F5000000"
+        android:textStyle="bold"
+        android:text="NDOM"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+
+        android:layout_marginTop="480dp"
+        android:background="@drawable/signl"
+        >
+
+    </ImageView>
+
+
+
+</RelativeLayout>
